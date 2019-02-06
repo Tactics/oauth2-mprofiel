@@ -1,0 +1,30 @@
+{
+    "name": "tactics/oauth2-mprofiel",
+    "description": "M-Profiel OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "license": "MIT",
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "authorization",
+        "authentication",
+        "idp",
+        "identity",
+        "sso",
+        "single sign on"
+    ],
+    "authors": [
+        {
+            "name": "Joris Hontelé",
+            "email": "joris@tactics.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tactics\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
